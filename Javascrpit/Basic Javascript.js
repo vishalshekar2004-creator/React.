@@ -208,8 +208,109 @@
 // console.log("Sum ", sum);
 
 
-/*while loop*/
-let i = 1;
-while(i <= 5){
-    console.log("i=",i);
-}
+// /*while loop*/
+// let i = 1;
+// while(i <= 5){
+//     console.log("i=",i);
+// }
+
+
+
+// 1. while loop
+
+// Example 1: Print numbers 1 to 5
+
+// let i = 1;
+
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+
+
+// Example 2: Print even numbers
+
+// let num = 2;
+
+// while (num <= 40) {
+//     console.log(num);
+//     num += 2;
+// }
+
+// 2. do...while loop
+
+// Example 1: Print numbers 1 to 5
+
+// let i = 1;
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+
+// Example 2: Run at least once
+
+// let number = 10;
+
+// do {
+//     console.log("This will execute");
+//     number++;
+// } while (number < 5);
+
+
+// 3. for...of loop
+
+// Example 1: Print fruits
+
+// let fruits = ["Apple", "Mango", "Orange"];
+
+// for (let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+
+// Example 2: Calculate total prices
+
+// let prices = [100, 200, 300];
+// let total = 0;
+
+// for (let price of prices) {
+//     total = total + price;
+// }
+
+// console.log("Total:", total);
+
+
+// 4. for...in loop
+
+// Example 1: Print object properties
+
+// let student = {
+//     name: "Vishal",
+//     age: 22,
+//     course: "JavaScript"
+// };
+
+// for (let key in student) {
+//     console.log(key, ":", student[key]);
+// }
+
+
+// Example 2: Calculate object values
+
+// let marks = {
+//     maths: 80,
+//     science: 90,
+//     english: 85
+// };
+
+// let total = 0;
+
+// for (let subject in marks) {
+//     total = total + marks[subject];
+// }
+
+// console.log("Total Marks:", total);
+
+
