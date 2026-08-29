@@ -214,7 +214,7 @@
 //     console.log("i=",i);
 // }
 
-
+/*********************************/
 
 // 1. while loop
 
@@ -312,5 +312,124 @@
 // }
 
 // console.log("Total Marks:", total);
+
+/********************************************/
+// 1. String Examples
+
+// let name = "Vishal";
+// console.log(name);
+
+
+// let message = 'Hello World';
+// console.log(message);
+
+
+// let text = "JavaScript is easy";
+// console.log(text);
+
+// Single Quotes
+// let name = 'Vishal';
+// console.log(name);
+
+// Double Quotes
+// let city = "Bengaluru";
+// console.log(city);
+
+// Backticks
+// let message = `Hello World`;
+// console.log(message);
+
+// 2. Template Literal
+//  backticks ( ) and ${}
+
+// let name = "Vishal";
+// console.log("Hello, ${name}");
+
+// let age = 22;
+// console.log("My age is ${age}");
+
+// let a = 10;
+// let b = 20;
+// console.log("The sum is ${a + b}");
+
+// Variable Interpolation
+// let name = "Vishal";
+// console.log(`Hello, ${name}!`);
+
+// Expressions
+// let a = 10;
+// let b = 20;
+// console.log(`Sum = ${a + b}`);
+
+// Multiline String
+// let message = `Hello
+// Welcome to JavaScript
+// Keep Learning`;
+// console.log(message);
+
+// 3. String Methods:
+
+// toUpperCase()
+// let text = "hello";
+// console.log(text.toUpperCase()); 
+
+// toLowerCase()
+// let text = "HELLO";
+// console.log(text.toLowerCase()); 
+
+// slice()
+// let text = "JavaScript";
+// console.log(text.slice(0, 4));
+
+// includes()
+// let text = "I am learning JavaScript";
+// console.log(text.includes("JavaScript"));
+
+// indexOf()
+// let text = "Hello World";
+// console.log(text.indexOf("World"));
+
+// replace()
+// let text = "I like Java";
+// let result = text.replace("Java", "JavaScript");
+// console.log(result);
+
+// trim()
+// let text = "   Hello World   ";
+// console.log(text.trim());
+
+// split()
+// let fruits = "Apple,Banana,Mango";
+// console.log(fruits.split(","));
+
+// charAt()
+// let text = "JavaScript";
+// console.log(text.charAt(0));
+
+// let name = "   vishal kumar   ";
+// let course = "javascript programming";
+// name = name.trim();
+// console.log(name.toUpperCase());
+// console.log(course.toLowerCase());
+// console.log(name.charAt(0));
+// console.log(course.slice(0, 10));
+// console.log(course.includes("javascript"));
+// console.log(course.indexOf("programming"));
+// course = course.replace("programming", "development");
+// console.log(course);
+// let words = course.split(" ");
+// console.log(words);
+// console.log(course.startsWith("javascript"));
+// console.log(course.endsWith("development"));
+
+
+// let email = "VISHAL@GMAIL.COM";
+// email = email.toLowerCase();
+// console.log(email);
+// console.log(email.includes("@"));
+// console.log(email.indexOf("@"));
+// console.log(email.slice(email.indexOf("@") + 1));
+// console.log(email.endsWith(".com"));
+
 
 
