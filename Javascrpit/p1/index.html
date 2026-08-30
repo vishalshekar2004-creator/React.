@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    <label>Contact Name:</label>
+    <input type="text" id="contactName">
+    
+    <br><br>
+
+    <label>Mobile Number:</label>
+    <input type="text" id="mobileNumber">
+
+    <br><br>
+
+    <button onclick="saveContact()">Save</button>
+
+    <h2>Saved Contacts</h2>
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Contact Name</th>
+                <th>Mobile Number</th>
+            </tr>
+        </thead>
+
+        <tbody id="contactTable">
+        </tbody>
+    </table>
+
+</body>
+</html>
