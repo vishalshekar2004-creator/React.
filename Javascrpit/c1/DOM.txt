@@ -1,0 +1,68 @@
+Date:1/09/2026
+DOM(Document Object Model):
+->It is tree like structure in that we can access all the HTML tags and elements.
+->We can access all the HTML elements in javascript.
+->All the elements of HTML converts into a object,that object is called as "document".
+->That document will be available in a Window object.
+Window object:
+->Window is global object in which contain lots of properties & methods.
+->In that only the document also is stored & we can see all the HTML files there,
+  by typing in console like console.window(document) or window.document.
+->All codes knows that window object by default only because it is a global object.
+->If we want see the properties of document we want type like console.dir(window.document).
+->console.log is used for print a elements.
+->console.dir is used to print document methods & properties.
+Model:
+->A document is called as Model.
+->Model means represent of HTML code.
+                      Window-> This box called as node
+                         |
+                      document->this also a node
+                         |
+                        html->node
+                   ______|_______
+                  |              |
+                head            body
+                 |                |
+        meta,link,title         div,script   
+
+->It is tree like structure,and it is hierarchical.
+->And the box  are called as nodes,& that node is called as object.
+
+DOM Manipulation:
+->DOM is mainly used for the dynamic change or manipulation of web pages.
+->If you want change something in the web page that we use this methods
+1.Selecting with id:
+->By giving unique id for the elements are decribe by the unique id for each elements.
+document.getElementById("myId")
+eg:let name=document.getElementById("contactName")
+
+2.Selecting with class:
+->If we want same color or multiple element in same type that time we can use class.
+->It is represented by .className
+document.getElementByclassName("myClass")
+
+3.Selecting with tag:
+->To access the paragraph tag & H1 tags like etc, we can use this.
+document.getElementBytagName("p")
+
+Query Selector:
+->It is a method that we can passes  all elemnts id,class,tag in single code of line.
+Syntax: document.querySelector("myId,myClass,tag")->for first element
+        document.querySelectorAll("myId,myClass,tag")->for all element
+Eg:
+   let firstelement=document.querySelector("p");
+   console.dir("firstelement");
+->It returns the first paragraph,what i return in the html 
+->if i want all the paragraph which in written in html means i have write like this,
+     document.querySelectorAll("p")
+->Query Selector returns Nodelist,means in node which we all done the like window,body,div,h1 like that.
+->If I want to use class means,I have write like this [document.querySelector(".myClass")].
+-If I wang to use id means,I have write like this [document.querySelector("#myId")].
+
+
+
+
+
+
+
