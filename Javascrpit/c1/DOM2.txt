@@ -1,0 +1,75 @@
+Date:3/09/2026
+properties of DOM:
+1>tagName:
+->Which returns tag  from elements node.
+
+2>innerText:
+->Which returns the text content of the element and all its children.
+Children means:
+                 body->parent 
+          _______ | ________
+         |                  |            
+child-> div               script ->child  
+  _______|______________
+ |      |       |       |
+ img    h1      p      div  
+->In this body is a parent node and div and script his child node.   
+
+parent->div               
+  _______|______________
+ |      |       |       |
+ img    h1      p      div->child 
+->In this parent node is div and all the node are children.
+
+                        body
+                         | first,last child
+                         |
+                        div ->body.children(0)    
+                         |          
+              ___________|____________                        
+first child->|           |            |->last child
+             |           |            |
+            img          h1          div
+    div.childreen(0)     (1)          (2)
+->In nodes we have only first child and last child.
+->We want to access the children we have to define like 0,1,2 like that.
+->First child: it select first node of an element.
+->Last child: it select last node of an element.
+->If I want only HTML elements that time I can use firstElementChild & lastElementChild.
+
+->>When we create nodes we have three type:
+1.Text node
+2.Comment
+3.Elements
+->We use all this for navigation.
+->If I want to see inner text of div with this, also the inner text of his children also appears.
+
+1.Text node: means text inside the HTML elements.
+Eg: hello world
+2.Comment: means which comment all
+Eg:<!— welcome—>
+3.Element: it represents an HTML tags and elements.
+Eg:<h1>
+
+3>innerHTML:
+->In this, it will show all the tag which we use in HTML.
+->In this we can see HTML information in this inner HTML string.
+->It used for writing tag directly.
+
+4>textContent:
+->It returns text content even for hidden elements.
+->It work like inner text only and also work for hidden elements.
+->It mainly used for showing the hidden elements in the webpage.
+
+DOM attributes:
+1. getAttribute(attr) //to get the attribute value.
+2. ⁠setAttribute(attr,value) //to set the attributes value.
+->If we want change class name ID name like that we use set attribute method.
+3.Style:
+.node.style
+->If we want use the style in JavaScript we use node.style
+        CSS                  JavaScript        
+background-color          backgroundColor
+font-size                 fontSize
+->Eg: div. Style. backgroundColor=“green”;
+
