@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tree {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.node-content {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.node-content:hover {
+    font-weight: bold;
+}
+
+.country {
+    font-weight: bold;
+}
+
+.state {
+    margin-left: 25px;
+}
+
+.city {
+    margin-left: 50px;
+}
+
+.children {
+    display: none;
+}
+
+.children.open {
+    display: block;
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+#search {
+    padding: 8px;
+    width: 300px;
+}
