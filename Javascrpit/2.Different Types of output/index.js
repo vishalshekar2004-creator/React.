@@ -1,0 +1,8 @@
+console.log("Hello")
+console.info("Hello World")
+console.warn("warn")
+console.error("Error")
+alert("I am alert")
+confirm("I am alert")
+document.write("can you see me")
+document.writeln("Bro I am here")

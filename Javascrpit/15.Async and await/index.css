@@ -1,0 +1,16 @@
+section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.card{
+    height: auto;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
